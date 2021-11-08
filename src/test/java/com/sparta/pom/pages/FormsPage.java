@@ -2,20 +2,18 @@ package com.sparta.pom.pages;
 
 import org.openqa.selenium.WebDriver;
 
-public class FormsPage {
+public class FormsPage extends AbstractPage{
 
-    private WebDriver webDriver;
+
 
     public FormsPage(WebDriver webDriver) {
-        this.webDriver = webDriver;
+        setWebDriver(webDriver);
     }
 
-    public String getFormsPageUrl(){
-        return webDriver.getCurrentUrl();
-    }
+
 
     public boolean matchingURL(){
-        return getFormsPageUrl().equals("https://demoqa.com/forms");
+        return getPageUrl().equals("https://demoqa.com/forms");
     }
 
 
