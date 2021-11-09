@@ -11,7 +11,7 @@ import org.openqa.selenium.safari.SafariDriver;
 public class DriverFactory {
 
     public enum Browsers{
-        CHROME, FIREFOX, INTERNET_EXPLORER, SAFARI
+        CHROME, FIREFOX, INTERNET_EXPLORER, SAFARI // don't use anything but chrome atm
     }
 
     public static WebDriver getWebDriver(Browsers name, ChromeDriverService service, ChromeOptions chromeOptions){

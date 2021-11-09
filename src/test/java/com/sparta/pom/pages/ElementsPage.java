@@ -17,33 +17,26 @@ public class ElementsPage extends AbstractPage{
     }
 
     public boolean matchingTextBoxName(String testInput){
-        getWebDriver().findElement(By.id("item-0")).click();
-        getWebDriver().findElement(By.id("userName")).click();
-        getWebDriver().findElement(By.id("userName")).sendKeys(testInput);
-        getWebDriver().findElement(By.id("submit")).click();
-        getWebDriver().manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-        String result = getWebDriver().findElement(By.id("name")).getText();
-        return result.equals("Name:"+testInput);
+        return matchingSuper("userName",testInput, By.id("name"), "Name:"+testInput );
     }
 
     public boolean matchingTextBoxEmail(){
-        getWebDriver().findElement(By.id("item-0")).click();
-        getWebDriver().findElement(By.id("userEmail")).click();
-        getWebDriver().findElement(By.id("userEmail")).sendKeys("test@test.com");
-        getWebDriver().findElement(By.id("submit")).click();
-        getWebDriver().manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-        String result = getWebDriver().findElement(By.id("email")).getText();
-        return result.equals("Email:test@test.com");
+
+        return matchingSuper("userEmail","test@test.com",  By.id("email"),"Email:test@test.com" );
     }
 
     public boolean matchingTextBoxAddress(){
+        return matchingSuper("currentAddress","test", By.cssSelector(".border > #currentAddress"),"Current Address :test" );
+    }
+
+    public boolean matchingSuper(String boxId, String input,  By findResult, String compareResult){
         getWebDriver().findElement(By.id("item-0")).click();
-        getWebDriver().findElement(By.id("currentAddress")).click();
-        getWebDriver().findElement(By.id("currentAddress")).sendKeys("test");
+        getWebDriver().findElement(By.id(boxId)).click();
+        getWebDriver().findElement(By.id(boxId)).sendKeys(input);
         getWebDriver().findElement(By.id("submit")).click();
         getWebDriver().manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-        String result = getWebDriver().findElement(By.cssSelector(".border > #currentAddress")).getText();
-        return result.equals("Current Address :test");
+        String result = getWebDriver().findElement(findResult).getText();
+        return result.equals(compareResult);
     }
 
 }
