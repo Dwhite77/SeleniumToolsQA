@@ -1,0 +1,10 @@
+Ability: to perform calculations
+  Scenario Outline: Adding 2 numbers together <num1> & <num2>
+    Given I have a calculator
+    When I add <num1> and <num2>
+    Then the answer should be <total>
+    Examples:
+      | num1 | num2 | total |
+      |   1  |  2   |  3    |
+      |   2  |  2   |  4    |
+      |   3  |  2   |  5    |

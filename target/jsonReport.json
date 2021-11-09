@@ -1,0 +1,436 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-09T11:31:30.247Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2547190500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.initAll()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Navigating to the elements page from the homepage",
+        "description": "",
+        "id": "ability-to-navigate-the-toolsqa-website;navigating-to-the-elements-page-from-the-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 66477000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the toolsQA homepage",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iAmOnTheToolsQAHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56284500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the elements link",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iClickOnTheElementsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6999700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will go to the elements page",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iWillGoToTheElementsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag(\"elements\")"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-09T11:31:32.965Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1999871400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.initAll()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Navigating to the forms page from the homepage",
+        "description": "",
+        "id": "ability-to-navigate-the-toolsqa-website;navigating-to-the-forms-page-from-the-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 84802800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on the toolsQA homepage",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iAmOnTheToolsQAHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53970300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the forms link",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iClickOnTheFormsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3989200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will go to the forms page",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iWillGoToTheFormsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag(\"forms\")"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-09T11:31:35.113Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2125009200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.initAll()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Navigating to the Alerts page from the home page",
+        "description": "",
+        "id": "ability-to-navigate-the-toolsqa-website;navigating-to-the-alerts-page-from-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 72667000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am on the toolsQA homepage",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iAmOnTheToolsQAHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51988600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the alerts link",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iClickOnTheAlertsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3988400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I will go to the alerts page",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iWillGoToTheAlertsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag(\"alerts\")"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-09T11:31:37.372Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2107639700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.initAll()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Navigating to the BookStore Page from the home page",
+        "description": "",
+        "id": "ability-to-navigate-the-toolsqa-website;navigating-to-the-bookstore-page-from-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 72090800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am on the toolsQA homepage",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iAmOnTheToolsQAHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53877600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on the BookStore link",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iClickOnTheBookStoreLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3987900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I will go to the BookStore page",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iWillGoToTheBookStorePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-09T11:31:39.614Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2009276700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.initAll()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Navigating to the interactions Page from the home page",
+        "description": "",
+        "id": "ability-to-navigate-the-toolsqa-website;navigating-to-the-interactions-page-from-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 67743000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I am on the toolsQA homepage",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iAmOnTheToolsQAHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51810900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on the interactions link",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iClickOnTheInteractionsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3976600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I will go to the interactions page",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iWillGoToTheInteractionsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-09T11:31:41.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1923430400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.initAll()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Navigating to the Widgets Page from the home page",
+        "description": "",
+        "id": "ability-to-navigate-the-toolsqa-website;navigating-to-the-widgets-page-from-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 81723000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am on the toolsQA homepage",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iAmOnTheToolsQAHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53714000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on the Widgets link",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iClickOnTheWidgetsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3994600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I will go to the Widgets page",
+            "match": {
+              "location": "com.sparta.dw.cucumber.stepdefs.MyStepdefs.iWillGoToTheWidgetsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ability to navigate the toolsQA website",
+    "description": "",
+    "id": "ability-to-navigate-the-toolsqa-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/websiteNavigation.feature",
+    "tags": []
+  }
+]
