@@ -6,3 +6,9 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+# added files
+/target/jsonReport.json
+/target/testReport.html
+/target/test-classes/chromedriver.exe
+/src/test/resources/chromedriver.exe
+
