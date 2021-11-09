@@ -6,6 +6,8 @@ public class AbstractPage {
 
     private WebDriver webDriver;
 
+    private Object page;
+
     public String getPageUrl(){
         return webDriver.getCurrentUrl();
     }
@@ -18,5 +20,10 @@ public class AbstractPage {
         return webDriver;
     }
 
-
+    public Object getPage() {
+        return page;
+    }
+    public void setPage(Object page){
+        this.page = page;
+    }
 }

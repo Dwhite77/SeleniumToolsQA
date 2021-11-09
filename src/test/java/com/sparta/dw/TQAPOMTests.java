@@ -33,7 +33,8 @@ public class TQAPOMTests {
     @BeforeEach
     public void init(){
         ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.addArguments("headless");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--window-size=1121,1045");
         webDriver = DriverFactory.getWebDriver(DriverFactory.Browsers.CHROME,service, chromeOptions);
         webDriver.manage().window().fullscreen();
         homePage = new HomePage(webDriver);

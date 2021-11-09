@@ -5,6 +5,7 @@ import com.sparta.dw.pom.util.DriverFactory;
 import com.sparta.dw.pom.util.TQAUtil;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -33,21 +34,20 @@ public class MyStepdefs {
     @Before
     public void initAll(){
         TQAUtil.setDriverLocation(DRIVER_LOCATION);
-
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("headless");
-
-
         service = TQAUtil.getChromeDriverService(DRIVER_LOCATION);
         try {
             service.start();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("headless");
+        chromeOptions.addArguments("--window-size=1265,1380");
         webDriver = DriverFactory.getWebDriver(DriverFactory.Browsers.CHROME,service, chromeOptions);
-        webDriver.manage().window().fullscreen();
         homePage = new HomePage(webDriver);
     }
+
 
     @Given("I am on the toolsQA homepage")
     public void iAmOnTheToolsQAHomepage() {
@@ -73,8 +73,6 @@ public class MyStepdefs {
     public void iWillGoToTheFormsPage() {
         Assertions.assertEquals(true, formsPage.matchingURL());
     }
-
-
 
 
     @When("I click on the alerts link")
@@ -125,4 +123,6 @@ public class MyStepdefs {
         webDriver.close();
         webDriver.quit();
     }
+
+
 }
